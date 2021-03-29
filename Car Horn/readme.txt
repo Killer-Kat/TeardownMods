@@ -1,0 +1,2 @@
+Credit to Punished Bernadetta's Honk mod for a lot of the base code, it was pretty easy to change from goose honks to car honks
+Credit to https://soundbible.com/1446-Bike-Horn.html# for the Bike horn sound.

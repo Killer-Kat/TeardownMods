@@ -16,7 +16,7 @@ function tick(dt)
 	 if (ready >= readyDefault) then
 				PlaySound(honk[math.random(1,4)],GetPlayerPos(),4.0)
 				
-				MakeHole(lookpos(), math.random(0.1, honkPower), math.random(0.1, honkPower), math.random(0.1, honkPower)) --Change these to change how large the damage is (Or use the options slider)
+				MakeHole(lookpos(), math.random(0.3, honkPower), math.random(0.2, honkPower - (honkPower * 0.25)), math.random(0.1, honkPower - (honkPower * 0.50))) --Change these to change how large the damage is (Or use the options slider)
 				ready = 0 
 			end
 	end
